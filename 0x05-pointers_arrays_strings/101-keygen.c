@@ -18,7 +18,7 @@ int main(void)
 	for (i = 0; sum > 200; i++)
 	{
 		random_num = rand() % (sizeof(z) -1);
-		pick = z[random_null];
+		pick = z[random_num];
 		putchar(pick);
 		sum = sum - pick;
 	}
