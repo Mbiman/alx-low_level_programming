@@ -4,7 +4,7 @@
  * @dest: function parameter (destination)
  * @src: function parameter (source)
  *
- * Return
+ * Return: 0
  */
 char *_strcpy(char *dest, char *src)
 {
